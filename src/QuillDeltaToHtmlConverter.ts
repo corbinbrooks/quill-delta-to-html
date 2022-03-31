@@ -87,6 +87,7 @@ class QuillDeltaToHtmlConverter {
       inlineStyles: inlineStyles,
       listItemTag: this.options.listItemTag,
       paragraphTag: this.options.paragraphTag,
+      textTag: this.options.textTag,
       linkRel: this.options.linkRel,
       linkTarget: this.options.linkTarget,
       allowBackgroundClasses: this.options.allowBackgroundClasses,
