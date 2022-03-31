@@ -1,5 +1,5 @@
 {
-  "name": "quill-delta-to-html",
+  "name": "quill-delta-to-html-cb",
   "version": "0.13.0",
   "description": "Converts Quill's delta ops to HTML",
   "main": "./dist/commonjs/main.js",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nozer/quill-delta-to-html.git"
+    "url": "git+ssh://git@github.com/corbinbrooks/quill-delta-to-html.git"
   },
   "keywords": [
     "quill",
@@ -41,9 +41,9 @@
   "author": "Nihat Özer <nihatforweb@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nozer/quill-delta-to-html/issues"
+    "url": "https://github.com/corbinbrooks/quill-delta-to-html/issues"
   },
-  "homepage": "https://github.com/nozer/quill-delta-to-html#readme",
+  "homepage": "https://github.com/corbinbrooks/quill-delta-to-html#readme",
   "nyc": {
     "include": [
       "src/**/*.ts"
