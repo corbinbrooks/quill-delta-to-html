@@ -19,6 +19,7 @@ interface IOpToHtmlConverterOptions {
   encodeHtml?: boolean;
   listItemTag?: string;
   paragraphTag?: string;
+  textTag?: string;
   linkRel?: string;
   linkTarget?: string;
   allowBackgroundClasses?: boolean;

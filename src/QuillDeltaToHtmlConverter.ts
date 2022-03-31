@@ -52,6 +52,7 @@ class QuillDeltaToHtmlConverter {
     this.options = obj.assign(
       {
         paragraphTag: 'p',
+        textTag: 'span',
         encodeHtml: true,
         classPrefix: 'ql',
         inlineStyles: false,

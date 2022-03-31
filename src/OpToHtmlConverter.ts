@@ -57,6 +57,7 @@ interface IOpToHtmlConverterOptions {
   encodeHtml?: boolean;
   listItemTag?: string;
   paragraphTag?: string;
+  textTag?: string;
   linkRel?: string;
   linkTarget?: string;
   allowBackgroundClasses?: boolean;
@@ -112,7 +113,7 @@ class OpToHtmlConverter {
       attrs = this.getTagAttributes();
 
     if (!tags.length && attrs.length) {
-      tags.push('span');
+      tags.push(this.options.textTag || 'span');
     }
 
     let beginTags = [],

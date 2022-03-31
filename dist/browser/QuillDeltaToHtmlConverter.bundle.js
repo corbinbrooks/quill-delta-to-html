@@ -494,7 +494,7 @@ var OpToHtmlConverter = (function () {
         }
         var tags = this.getTags(), attrs = this.getTagAttributes();
         if (!tags.length && attrs.length) {
-            tags.push('span');
+            tags.push(this.options.textTag || 'span');
         }
         var beginTags = [], endTags = [];
         var imgTag = 'img';
@@ -792,6 +792,7 @@ var QuillDeltaToHtmlConverter = (function () {
         this.callbacks = {};
         this.options = obj.assign({
             paragraphTag: 'p',
+            textTag: 'span',
             encodeHtml: true,
             classPrefix: 'ql',
             inlineStyles: false,
